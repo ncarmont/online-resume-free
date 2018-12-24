@@ -2,7 +2,7 @@
   "name": "nick-cv",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
@@ -20,5 +20,5 @@
   },
   "engines": {
     "node": "11.4.0"
-  }
+  },
 }
